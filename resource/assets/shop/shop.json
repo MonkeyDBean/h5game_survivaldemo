@@ -1,0 +1,17 @@
+{"file":"shop.png","frames":{
+"shop_numBg_png":{"x":383,"y":247,"w":343,"h":68,"offX":0,"offY":0,"sourceW":343,"sourceH":68},
+"shop_prizeText_png":{"x":486,"y":317,"w":92,"h":48,"offX":1,"offY":0,"sourceW":93,"sourceH":49},
+"shop_prizeBg_png":{"x":383,"y":164,"w":610,"h":81,"offX":1,"offY":6,"sourceW":618,"sourceH":87},
+"shop_priceBg_png":{"x":838,"y":247,"w":182,"h":36,"offX":0,"offY":0,"sourceW":182,"sourceH":36},
+"shop_grid_png":{"x":383,"y":1,"w":333,"h":161,"offX":0,"offY":0,"sourceW":333,"sourceH":161},
+"shop_diamondText_png":{"x":383,"y":317,"w":101,"h":47,"offX":1,"offY":1,"sourceW":103,"sourceH":49},
+"shop_winGoldBg_png":{"x":580,"y":317,"w":121,"h":30,"offX":0,"offY":0,"sourceW":121,"sourceH":30},
+"shop_prizeBtn_png":{"x":718,"y":78,"w":124,"h":54,"offX":0,"offY":0,"sourceW":124,"sourceH":54},
+"shop_itemText_png":{"x":844,"y":78,"w":103,"h":48,"offX":1,"offY":0,"sourceW":104,"sourceH":49},
+"shop_diamondPic_png":{"x":940,"y":285,"w":56,"h":66,"offX":12,"offY":2,"sourceW":80,"sourceH":69},
+"shop_goldText_png":{"x":838,"y":285,"w":100,"h":48,"offX":1,"offY":0,"sourceW":102,"sourceH":49},
+"shop_title_png":{"x":718,"y":1,"w":296,"h":75,"offX":0,"offY":3,"sourceW":296,"sourceH":79},
+"shop_goldPic_png":{"x":949,"y":78,"w":59,"h":68,"offX":11,"offY":0,"sourceW":80,"sourceH":69},
+"shop_prizePic_png":{"x":838,"y":335,"w":57,"h":60,"offX":11,"offY":6,"sourceW":80,"sourceH":69},
+"shop_winBg_png":{"x":1,"y":1,"w":380,"h":486,"offX":0,"offY":0,"sourceW":380,"sourceH":486},
+"shop_winGrid_png":{"x":728,"y":247,"w":108,"h":108,"offX":0,"offY":0,"sourceW":108,"sourceH":108}}}

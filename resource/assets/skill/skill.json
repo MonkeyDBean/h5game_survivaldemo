@@ -1,0 +1,14 @@
+{"file":"skill.png","frames":{
+"skill_strengthText_png":{"x":219,"y":475,"w":180,"h":55,"offX":0,"offY":1,"sourceW":180,"sourceH":57},
+"skill_wait_png":{"x":1,"y":1,"w":477,"h":112,"offX":0,"offY":0,"sourceW":477,"sourceH":112},
+"skill_buleBg_png":{"x":1,"y":115,"w":422,"h":74,"offX":0,"offY":0,"sourceW":422,"sourceH":74},
+"skill_buleBgChoose_png":{"x":1,"y":191,"w":422,"h":74,"offX":0,"offY":0,"sourceW":422,"sourceH":74},
+"skill_goldBg_png":{"x":1,"y":267,"w":388,"h":57,"offX":0,"offY":0,"sourceW":388,"sourceH":57},
+"skill_health_png":{"x":183,"y":326,"w":179,"h":56,"offX":1,"offY":1,"sourceW":181,"sourceH":57},
+"skill_healthText_png":{"x":1,"y":326,"w":180,"h":56,"offX":0,"offY":0,"sourceW":181,"sourceH":57},
+"skill_lvText_png":{"x":425,"y":115,"w":52,"h":36,"offX":0,"offY":0,"sourceW":53,"sourceH":36},
+"skill_maxText_png":{"x":1,"y":418,"w":108,"h":112,"offX":0,"offY":0,"sourceW":108,"sourceH":112},
+"skill_redBg_png":{"x":1,"y":386,"w":405,"h":30,"offX":0,"offY":0,"sourceW":405,"sourceH":30},
+"skill_roundBtn_png":{"x":111,"y":418,"w":106,"h":111,"offX":9,"offY":6,"sourceW":120,"sourceH":120},
+"skill_roundBtnChoose_png":{"x":391,"y":267,"w":116,"h":117,"offX":4,"offY":0,"sourceW":120,"sourceH":120},
+"skill_strength_png":{"x":219,"y":418,"w":181,"h":55,"offX":0,"offY":1,"sourceW":182,"sourceH":57}}}

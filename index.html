@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Survival</title>
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+
+
+    <meta name="screen-orientation" content="landscape"/>
+    <meta name="x5-orientation" content="landscape">
+
+    <meta name="full-screen" content="true"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="360-fullscreen" content="true"/>
+
+    <script src="http://api.egret-labs.org/games/www/static/egreth5sdk.js"></script>
+
+
+    <style>
+        body {
+            text-align: center;
+            background: #000000;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+        html {
+            -ms-touch-action: none; /* Direct all pointer events to JavaScript code. */
+            overflow: hidden;
+        }
+        div, canvas {
+            display:block;
+            position:absolute;
+            margin: 0 auto;
+            padding: 0;
+            border: 0;
+        }
+    </style>
+</head>
+<body>
+<div style="position:relative;" id="gameDiv"></div>
+<script>var document_class = "Main";</script><!--这部分内容在编译时会被替换，要修改文档类，请到工程目录下的egretProperties.json内编辑。-->
+<!--This part will be replaced during compiling, and to modify the document class, please go to the project directory and edit in the file of egretProperties. Jsonr-->
+<script src="launcher/egret_require.js"></script>
+<script src="launcher/egret_loader.js"></script>
+<script src="launcher/game-min.js"></script>
+<script src="http://api.egret-labs.org/games/www/static/egreth5sdk.js"></script>
+<script src="http://qzonestyle.gtimg.cn/qzone/mobilepage/gamesBar/common/pop_pay_tips.js"></script>
+
+<script>
+    var support = [].map && document.createElement("canvas").getContext;
+    if (support) {
+        egret_h5.startGame();
+    }
+    else {
+        alert("Egret 不支持您当前的浏览器")
+    }
+</script>
+
+<script type="text/javascript">
+
+    function callPayMethod(num){
+        window.popPayTips({defaultScore : num});
+    }
+
+    window.__paySuccess = function(){
+        console.log("pay success");
+        window["ShopScene"].buyAgain();
+    }
+    window.__payError = function(){
+        console.log("pay err");
+//        alert("购买失败");
+        window["ShopScene"].buyFailed();
+    }
+    window.__payClose = function(){
+        console.log("pay close");
+        window["ShopScene"].buyCancel();
+    }
+
+    console.log("window location href: "+window.location.href);
+    function getHttpParams(name)
+    {
+        var r = new RegExp("(\\?|#|&)"+name+"=([^&#]*)(&|#|$)");
+        var m = location.href.match(r);
+        return decodeURIComponent(!m?"":m[2]);
+    }
+    console.log(getHttpParams("platInfo"));
+    var openid = getHttpParams("openid");
+    var openkey = getHttpParams("openkey");
+    //var pf = getHttpParams("pf");
+    var phone_plat = getHttpParams("platform");
+    var spid = getHttpParams("egret.runtime.spid");
+//    console.log("pf: "+pf);
+    console.log("openid: "+openid);
+    console.log("openkey: "+openkey);
+    console.log("platform:"+phone_plat);
+</script>
+</body>
+</html>

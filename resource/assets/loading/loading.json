@@ -1,0 +1,5 @@
+{"file":"loading.png","frames":{
+"load_dot_png":{"x":763,"y":423,"w":28,"h":27,"offX":0,"offY":0,"sourceW":28,"sourceH":27},
+"load_logo_png":{"x":1,"y":1,"w":829,"h":420,"offX":2,"offY":2,"sourceW":831,"sourceH":425},
+"load_text_png":{"x":515,"y":423,"w":246,"h":68,"offX":1,"offY":1,"sourceW":248,"sourceH":70},
+"load_textBg_png":{"x":1,"y":423,"w":512,"h":87,"offX":1,"offY":4,"sourceW":516,"sourceH":91}}}
